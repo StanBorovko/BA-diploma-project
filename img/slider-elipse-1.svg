@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="428" height="428" viewBox="0 0 428 428">
+  <defs>
+    <style>
+
+      .cls-2 {
+        stroke: url(#linear-gradient-1);
+        stroke-width: 20px;
+        fill: none;
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="214" y1="418" x2="214" y2="10">
+      <stop offset="0" stop-color="#479ddc"/>
+      <stop offset="1" stop-color="#62b1ce"/>
+    </linearGradient>
+  </defs>
+  <circle id="circle-1" class="cls-2" cx="214" cy="214" r="204"/>
+</svg>

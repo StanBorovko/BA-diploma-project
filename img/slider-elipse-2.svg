@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="280" height="280">
+    <defs>
+        <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="174" y1="203.691" x2="-76" y2="76.309">
+            <stop offset="0" stop-color="#ffa81f"/>
+            <stop offset="1" stop-color="#ffcd7f"/>
+        </linearGradient>
+    </defs>
+    <circle cx="140" cy="140" r="125" stroke="url(#a)" stroke-width="30" fill="none"/>
+</svg>

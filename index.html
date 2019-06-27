@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Beetroot Academy Examination Work</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon-32x32.png">
+
+</head>
+<body>
+<noscript>
+    <div class="alert">
+        Для использования сайта JavaScript должен быть включен! Проверьте настройки своего браузера, если видите это
+        сообщение.
+    </div>
+</noscript>
+<svg xmlns="http://www.w3.org/2000/svg" display="none">
+
+	<symbol id="phone" preserveAspectRatio="xMidYMid" viewBox="0 0 21 35">
+		<path d="M17.958,-0.000 C17.958,-0.000 2.354,-0.000 2.354,-0.000 C1.054,-0.000 -0.010,1.063 -0.010,2.364 C-0.010,2.364 -0.010,32.634 -0.010,32.634 C-0.010,33.935 1.054,35.000 2.354,35.000 C2.354,35.000 17.958,35.000 17.958,35.000 C19.258,35.000 20.322,33.937 20.322,32.635 C20.322,32.635 20.322,2.364 20.322,2.364 C20.322,1.063 19.258,-0.000 17.958,-0.000 ZM7.660,1.704 C7.660,1.704 12.652,1.704 12.652,1.704 C12.810,1.704 12.938,1.832 12.938,1.991 C12.938,2.148 12.810,2.276 12.652,2.276 C12.652,2.276 7.660,2.276 7.660,2.276 C7.502,2.276 7.374,2.148 7.374,1.991 C7.374,1.832 7.502,1.704 7.660,1.704 ZM10.156,33.818 C9.503,33.818 8.974,33.289 8.974,32.635 C8.974,31.982 9.503,31.454 10.156,31.454 C10.808,31.454 11.338,31.982 11.338,32.635 C11.338,33.289 10.808,33.818 10.156,33.818 ZM18.678,30.625 C18.678,30.625 1.635,30.625 1.635,30.625 C1.635,30.625 1.635,3.748 1.635,3.748 C1.635,3.748 18.678,3.748 18.678,3.748 C18.678,3.748 18.678,30.625 18.678,30.625 Z" class="cls-2" fill-rule="evenodd"></path>
+	</symbol>
+
+	<symbol id="search" preserveAspectRatio="xMidYMid" viewBox="0 0 25 25">
+		<path d="M24.680,23.211 C24.680,23.211 18.673,17.204 18.673,17.204 C20.162,15.389 21.060,13.064 21.060,10.529 C21.060,4.716 16.343,-0.000 10.530,-0.000 C4.712,-0.000 -0.000,4.716 -0.000,10.529 C-0.000,16.343 4.712,21.059 10.530,21.059 C13.064,21.059 15.384,20.167 17.200,18.678 C17.200,18.678 23.206,24.680 23.206,24.680 C23.614,25.088 24.272,25.088 24.680,24.680 C25.088,24.277 25.088,23.614 24.680,23.211 ZM10.530,18.963 C5.874,18.963 2.091,15.180 2.091,10.529 C2.091,5.879 5.874,2.090 10.530,2.090 C15.180,2.090 18.969,5.879 18.969,10.529 C18.969,15.180 15.180,18.963 10.530,18.963 Z" class="cls-2" fill-rule="evenodd"></path>
+	</symbol>
+
+	<symbol id="btn-prev" preserveAspectRatio="xMidYMid" viewBox="0 0 60 60">
+		<path d="M30.000,60.000 C13.431,60.000 -0.000,46.568 -0.000,30.000 C-0.000,13.431 13.431,-0.000 30.000,-0.000 C46.569,-0.000 60.000,13.431 60.000,30.000 C60.000,46.568 46.569,60.000 30.000,60.000 ZM30.000,2.594 C14.864,2.594 2.594,14.864 2.594,30.000 C2.594,45.136 14.864,57.406 30.000,57.406 C45.136,57.406 57.406,45.136 57.406,30.000 C57.406,14.864 45.136,2.594 30.000,2.594 ZM34.453,43.582 C34.019,44.019 33.314,44.019 32.879,43.582 C32.879,43.582 20.550,31.197 20.550,31.197 C20.468,31.115 20.416,31.015 20.365,30.917 C20.351,30.904 20.332,30.900 20.319,30.886 C19.882,30.447 19.882,29.735 20.319,29.296 C20.319,29.296 32.717,16.842 32.717,16.842 C33.154,16.403 33.863,16.403 34.300,16.842 C34.737,17.281 34.737,17.993 34.300,18.432 C34.300,18.432 22.645,30.140 22.645,30.140 C22.645,30.140 34.453,42.001 34.453,42.001 C34.888,42.438 34.888,43.145 34.453,43.582 Z" class="cls-3" fill-rule="evenodd"></path>
+	</symbol>
+
+	<symbol id="btn-next" preserveAspectRatio="xMidYMid" viewBox="0 0 60 60">
+		<path d="m30,60c-16.569,0 -30,-13.432 -30,-30c0,-16.569 13.431,-30 30,-30c16.569,0 30,13.431 30,30c0,16.568 -13.431,30 -30,30zm0,-57.406c-15.136,0 -27.406,12.27 -27.406,27.406c0,15.136 12.27,27.406 27.406,27.406c15.136,0 27.406,-12.27 27.406,-27.406c0,-15.136 -12.27,-27.406 -27.406,-27.406zm9.635,28.323c-0.051,0.098 -0.103,0.198 -0.186,0.28c0,0 -12.329,12.385 -12.329,12.385c-0.434,0.437 -1.139,0.437 -1.574,0c-0.434,-0.437 -0.434,-1.144 0,-1.581c0,0 11.809,-11.861 11.809,-11.861c0,0 -11.655,-11.708 -11.655,-11.708c-0.437,-0.439 -0.437,-1.151 0,-1.59c0.437,-0.439 1.145,-0.439 1.582,0c0,0 12.399,12.454 12.399,12.454c0.437,0.439 0.437,1.151 0,1.59c-0.014,0.014 -0.032,0.018 -0.046,0.031z" class="cls-3" fill-rule="evenodd"></path>
+	</symbol>
+
+	<symbol id="backet" preserveAspectRatio="xMidYMid" viewBox="0 0 32 38">
+		<path d="M16.000,6.200 C16.000,6.200 16.000,5.166 16.000,5.166 C16.000,2.313 13.761,-0.001 11.000,-0.001 C8.239,-0.001 6.000,2.313 6.000,5.166 C6.000,5.166 6.000,6.200 6.000,6.200 C6.000,6.200 -0.000,6.200 -0.000,6.200 C-0.000,6.200 -0.000,31.000 -0.000,31.000 C-0.000,31.000 22.000,31.000 22.000,31.000 C22.000,31.000 22.000,6.200 22.000,6.200 C22.000,6.200 16.000,6.200 16.000,6.200 ZM8.000,5.166 C8.000,3.454 9.343,2.066 11.000,2.066 C12.657,2.066 14.000,3.454 14.000,5.166 C14.000,5.166 14.000,6.200 14.000,6.200 C14.000,6.200 8.000,6.200 8.000,6.200 C8.000,6.200 8.000,5.166 8.000,5.166 ZM20.000,28.933 C20.000,28.933 2.000,28.933 2.000,28.933 C2.000,28.933 2.000,8.266 2.000,8.266 C2.000,8.266 6.000,8.266 6.000,8.266 C6.000,8.266 6.000,11.366 6.000,11.366 C6.000,11.366 8.000,11.366 8.000,11.366 C8.000,11.366 8.000,8.266 8.000,8.266 C8.000,8.266 14.000,8.266 14.000,8.266 C14.000,8.266 14.000,11.366 14.000,11.366 C14.000,11.366 16.000,11.366 16.000,11.366 C16.000,11.366 16.000,8.266 16.000,8.266 C16.000,8.266 20.000,8.266 20.000,8.266 C20.000,8.266 20.000,28.933 20.000,28.933 Z" class="cls-3" fill-rule="evenodd"></path>
+		<circle class="cls-4" cx="22" cy="28" r="10"> </circle>
+	</symbol>
+
+
+</svg>
+<header>
+    <div class="inner">
+        <div class="menubar">
+            <a href="#" class="logo">
+                <img src="img/logo.svg" alt="SNOW">
+            </a>
+            <span class="hamburger"><span></span></span>
+            <nav class="menu">
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>главная</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>товары</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>доставка и оплата</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>мастерская</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>прокат</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>контакты</span>
+                </a>
+                <a href="javascript:void(0);" class="menu-item">
+                    <span>блог</span>
+                </a>
+            </nav>
+            <form action="/" method="post">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                <button class="search " type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                         viewBox="0 0 25 25">
+                        <use xlink:href="#search"></use>
+                    </svg>
+                </button>
+                <button class="basket">
+                    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                         viewBox="0 0 32 38">
+                        <use xlink:href="#backet"></use>
+                    </svg>
+                    <span class="item-counter">0</span>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</header>
+<main>
+    <section class="slider-info">
+    	<div class="inner">
+    		<img class="img circle blue" src="img/slider-elipse-1.svg" alt="circle-1">
+    		<img class="img circle orange" src="img/slider-elipse-2.svg" alt="circle-2">
+    		<img class="img frame major" src="img/slider-frame-1.png" alt="frame-1">
+    		<img class="img frame minor" src="img/slider-frame-2.png" alt="frame-2">
+    		<div class="s01-slider">
+    			<div class="row">
+    				<div class="col-2">
+    					<h2>аксессуары для сноубординга</h2>
+    					<div class="text">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинcкий набор слов, но это не совсем так. Его корни уходят в один фрагмент классической</div>
+    					<a href="#" class="btn btn-primary">перейти в каталог</a>
+    				</div>
+    				<div class="col-2">
+    					<img src="img/slider1.png" alt="slide01">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-2">
+    					<h2>Заточка кантов и вощение скользяка</h2>
+    					<div class="text">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинcкий набор слов, но это не совсем так. Его корни уходят в один фрагмент классической</div>
+    					<a href="#" class="btn btn-primary">перейти в каталог</a>
+    				</div>
+    				<div class="col-2">
+    					<img src="img/slider1.png" alt="slide02">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-2">
+    					<h2>Сноубордическая одежда</h2>
+    					<div class="text">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинcкий набор слов, но это не совсем так. Его корни уходят в один фрагмент классической</div>
+    					<a href="#" class="btn btn-primary">перейти в каталог</a>
+    				</div>
+    				<div class="col-2">
+    					<img src="img/slider1.png" alt="slide03">
+    				</div>
+    			</div>
+    			<div class="row">
+    				<div class="col-2">
+    					<h2>Туры в Альпы</h2>
+    					<div class="text">Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинcкий набор слов, но это не совсем так. Его корни уходят в один фрагмент классической</div>
+    					<a href="#" class="btn btn-primary">перейти в каталог</a>
+    				</div>
+    				<div class="col-2">
+    					<img src="img/slider1.png" alt="slide04">
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section class="sale30">
+        <div class="inner">
+            <h2>
+                Товары со скидкой <span class="sic">30%</span>
+            </h2>
+            <div class="s02-slider">
+                <div class="s02-slide">
+                    <img src="img/sale-slide-1.jpg" alt="slide01">
+                    <div class="type">сноуборд</div>
+                    <div class="item">never summer
+                        <span class="name">raven</span>
+                    </div>
+                </div>
+                <div class="s02-slide">
+                    <img src="img/sale-slide-2.jpg" alt="slide02">
+                    <div class="type up">крепление</div>
+                    <div class="item up">liquid force
+                        <span class="name">rant</span>
+                    </div>
+                </div>
+                <div class="s02-slide">
+                    <img src="img/sale-slide-3.jpg" alt="slide03">
+                    <div class="type right">шлем</div>
+                    <div class="item right">triple eight
+                        <span class="name">hero</span>
+                    </div>
+                </div>
+                <div class="s02-slide">
+                    <img src="img/sale-slide-1.jpg" alt="slide01">
+                    <div class="type">сноуборд</div>
+                    <div class="item">never summer
+                        <span class="name">raven</span>
+                    </div>
+                </div>
+                <div class="s02-slide">
+                    <img src="img/sale-slide-2.jpg" alt="slide02">
+                    <div class="type up">крепление</div>
+                    <div class="item up">liquid force
+                        <span class="name">rant</span>
+                    </div>
+                </div>
+                <div class="s02-slide">
+                    <img src="img/sale-slide-3.jpg" alt="slide03">
+                    <div class="type right">шлем</div>
+                    <div class="item right">triple eight
+                        <span class="name">hero</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="new-catalog">
+    	<div class="inner">
+    		<img src="img/collection-frame-1.png" alt="frame1" class="frame minor">
+    		<img src="img/collection-frame-2.png" alt="frame2" class="frame major">
+    		<img src="img/collection-elipse-3.svg" alt="circle1" class="img circle orange">
+    		<img src="img/collection-elipse-2.svg" alt="circle2" class="img circle blue">
+    		<img src="img/collection-elipse-1.svg" alt="circle2" class="img circle deepblue">
+    		<div class="row">
+    			<div class="col-2">
+    				<img src="img/collection-man.png" alt="man" class="pic">
+    			</div>
+    			<div class="col-2 ">
+    				<h2>новая коллекция 2017</h2>	
+    				<div>Многие думают, что Lorem Ipsum - взятый с потолка псевдо-латинcкий набор слов, но это не совсем так. Его корни уходят в один фрагмент классической</div>
+    				<a href="#" class="btn btn-primary">перейти в каталог</a>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section class="best-blog">
+        <div class="inner">
+            <img src="img/blog-ellipse-1.svg" alt="circle1" class="img circle blue">
+            <img src="img/blog-ellipse-2.svg" alt="circle2" class="img circle orange">
+            <img src="img/blog-frame-1.png" alt="frame1" class="img frame minor">
+            <img src="img/blog-frame-2.png" alt="frame2" class="img frame major">
+            <h2 class="best">Лучшие товары</h2>
+            <div class="s04-slider-best">
+                <div class="s04-slide">
+                    <img src="img/best-item-1.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton social</div>
+                    <div class="price">9 000грн</div>
+                </div>
+                <div class="s04-slide">
+                    <img src="img/best-item-2.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton trick pony</div>
+                    <div class="price">9 000грн</div>
+                </div>
+                <div class="s04-slide">
+                    <img src="img/best-item-3.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton deja vu</div>
+                    <div class="price">9 000грн</div>
+                </div>
+                <div class="s04-slide">
+                    <img src="img/best-item-1.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton social</div>
+                    <div class="price">9 000грн</div>
+                </div>
+                <div class="s04-slide">
+                    <img src="img/best-item-2.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton trick pony</div>
+                    <div class="price">9 000грн</div>
+                </div>
+                <div class="s04-slide">
+                    <img src="img/best-item-3.jpg" alt="best-item">
+                    <div class="type">сноуборд</div>
+                    <div class="name">burton deja vu</div>
+                    <div class="price">9 000грн</div>
+                </div>
+            </div>
+            <h2 class="blog">Блог</h2>
+            <div class="s04-slider-blog">
+                <div class="blog-slide">
+                    <img src="img/blog-image-1.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">Турнир в Сочи</div>
+                    <div class="text">В рамках фестиваля Quicksilver New Star Camp на круглогодичном горнолыжном</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+                <div class="blog-slide">
+                    <img src="img/blog-image-2.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">Кубок Европы 2017</div>
+                    <div class="text">Есть много варинатов , но большинство из них имеет не всегда приемлемые</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+                <div class="blog-slide">
+                    <img src="img/blog-image-3.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">World Tour 2017</div>
+                    <div class="text">Есть много варинатов , но большинство из них имеет не всегда приемлемые</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+                <div class="blog-slide">
+                    <img src="img/blog-image-1.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">Турнир в Сочи</div>
+                    <div class="text">В рамках фестиваля Quicksilver New Star Camp на круглогодичном горнолыжном</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+                <div class="blog-slide">
+                    <img src="img/blog-image-2.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">Кубок Европы 2017</div>
+                    <div class="text">Есть много варинатов , но большинство из них имеет не всегда приемлемые</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+                <div class="blog-slide">
+                    <img src="img/blog-image-3.jpg" alt="blog-image">
+                    <div class="date">12.02.17</div>
+                    <div class="title">World Tour 2017</div>
+                    <div class="text">Есть много варинатов , но большинство из них имеет не всегда приемлемые</div>
+                    <a href="" class="btn read">читать</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<aside>
+    <a href="javascript:void(0);" class="upBtn">вверх</a>
+    
+    <div class="basket-wrapper">
+        <div class="modal">
+            <div class="head">
+                <span>Корзина товаров:</span>
+                <a class="btn-close trigger" href="#">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="basket">
+                <div class="empty ">К сожалению корзина пуста</div>
+            </div>
+            <a href="javascript:void(0);" class="btn" id="buy">Оформить заказ</a>
+    
+        </div>
+    </div>
+    <div class="map-wrapper">
+        <div class="modal">
+            <div class="head">
+                <span>Наше расположение:</span>
+                <a class="btn-close trigger" href="#">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div id="map">
+
+            </div>
+            <a href="javascript:void(0);" class="btn" id="route">Найти дорогу к нам</a>
+
+        </div>
+    </div>
+</aside>
+
+<footer>
+    <div class="inner">
+        <div class="row">
+            <div class="col-4">
+                <img src="img/logo.svg" alt="SNOW" class="logo">
+            </div>
+            <div class="col-6 offset-1-6">
+                <nav class="menu-footer">
+                    <a class="nav-link" href="#">сноуборды</a>
+                    <a class="nav-link" href="#">аксессуары</a>
+                    <a class="nav-link" href="#">запчасти</a>
+                    <a class="nav-link" href="#">одежда</a>
+                    <a class="nav-link" href="#">обувь</a>
+                    <a class="nav-link" href="#">другое</a>
+                </nav>
+            </div>
+            <div class="col-6">
+                <nav class="menu-footer">
+                    <a class="nav-link" href="#">главная</a>
+                    <a class="nav-link" href="#">товары</a>
+                    <a class="nav-link" href="#">доставка</a>
+                    <a class="nav-link" href="#">мастерская</a>
+                    <a class="nav-link" href="#">прокат</a>
+                    <a class="nav-link" href="#">контакты</a>
+                    <a class="nav-link" href="#">блог</a>
+                </nav>
+            </div>
+            <div class="col-4 offset-1-6">
+                <h4>контакты</h4>
+                <div class="phone-number">
+                    <svg class="phone" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                         viewBox="0 0 21 35">
+                        <use xlink:href="#phone"></use>
+                    </svg>
+                    <span class="footer__phone">+38(050)9348511</span>
+                </div>
+                <div class="phone-number">
+                    <svg class="phone" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                         viewBox="0 0 21 35">
+                        <use xlink:href="#phone"></use>
+                    </svg>
+                    <span class="footer__phone">+38(050)9348511</span>
+                </div>
+                <div class="location">
+                    <a href="javascript:void(0);" class="btn">Мы на карте!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</footer>
+
+<script src="js/bundle.js" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARvdRw1SpsWliKKLKd4DAH2kkc0PxU3Ck&callback=initMap" defer></script>
+</body>
+</html>
